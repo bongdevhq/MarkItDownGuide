@@ -548,12 +548,13 @@ Here's some text with a footnote about what I love very much[^1].
     - Subsubitem 1
 - Item 2
 
-## 42 Inline HTML for Custom Styling:
+## 42 Inline Math Equations with LaTeX:
 **Markdown Code**
 ```
-<span style="color: #551A8B;">My favourite colour is deep purple-blue.</span>
+This is an inline math equation(identity): $e^{i\pi} + 1 = 0$
 ```
-<span style="color: #551A8B;">My favourite colour is deep purple-blue.</span>
+This is an inline math equation(identity): $e^{i\pi} + 1 = 0$
+
 
 ## 43. Task Lists:
 **Markdown Code:**
