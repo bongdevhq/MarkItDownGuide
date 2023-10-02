@@ -575,3 +575,136 @@ This is an inline math equation(identity): $e^{i\pi} + 1 = 0$
 10. Item 1
 20. Item 2
 30. Item 3
+
+## 45. Tables with Complex Structures:
+**Markdown Code**
+```
+| Student       | Subject         | Grade |
+| ------------- | --------------- | ----- |
+| Alice         | Math            | A     |
+|               | Physics         | B     |
+|               | Chemistry       | A     |
+| ------------- | --------------- | ----- |
+| Bob           | Math            | B     |
+|               | Physics         | A     |
+|               | Chemistry       | B     |
+|               | Biology         | C     |
+| ------------- | --------------- | ----- |
+| Carol         | Math            | A     |
+|               | Physics         | A     |
+|               | Chemistry       | A     |
+| ------------- | --------------- | ----- |
+| David         | Math            | C     |
+|               | Physics         | B     |
+|               | Chemistry       | B     |
+| ------------- | --------------- | ----- |
+
+```
+
+| Student       | Subject         | Grade |
+| ------------- | --------------- | ----- |
+| Alice         | Math            | A     |
+|               | Physics         | B     |
+|               | Chemistry       | A     |
+| ------------- | --------------- | ----- |
+| Bob           | Math            | B     |
+|               | Physics         | A     |
+|               | Chemistry       | B     |
+|               | Biology         | C     |
+| ------------- | --------------- | ----- |
+| Carol         | Math            | A     |
+|               | Physics         | A     |
+|               | Chemistry       | A     |
+| ------------- | --------------- | ----- |
+| David         | Math            | C     |
+|               | Physics         | B     |
+|               | Chemistry       | B     |
+| ------------- | --------------- | ----- |
+
+
+_**We also can use Nested lists too**_
+```
+| Student       | Subjects                                            | Grades       |
+| ------------- | --------------------------------------------------- | ------------ |
+| Alice         | - Math<br>   - Algebra<br>   - Geometry             | A<br>   B<br>   A |
+| Bob           | - Math<br>   - Physics<br>   - Chemistry<br>   - Biology | B<br>   A<br>   B<br>   C |
+| Carol         | - Math<br>   - Physics<br>   - Chemistry           | A<br>   A<br>   A |
+| David         | - Math<br>   - Physics<br>   - Chemistry           | C<br>   B<br>   B |
+```
+
+| Student       | Subjects                                            | Grades       |
+| ------------- | --------------------------------------------------- | ------------ |
+| Alice         | - Math<br>   - Algebra<br>   - Geometry             | A<br>   B<br>   A |
+| Bob           | - Math<br>   - Physics<br>   - Chemistry<br>   - Biology | B<br>   A<br>   B<br>   C |
+| Carol         | - Math<br>   - Physics<br>   - Chemistry           | A<br>   A<br>   A |
+| David         | - Math<br>   - Physics<br>   - Chemistry           | C<br>   B<br>   B |
+
+
+## 46. Complex Nexting:
+```
+- Item 1
+  - Subitem A
+    1. Numbered Sub-subitem
+    2. Another Numbered Sub-subitem
+  - Subitem B
+- Item 2
+```
+
+- Item 1
+  - Subitem A
+    1. Numbered Sub-subitem
+    2. Another Numbered Sub-subitem
+  - Subitem B
+- Item 2
+
+## 47. Combining Emphasis and Links:
+**Markdown Code**
+```
+My favourite book currently is **[An Introduction to *Statistical Learning*](https://www.statlearning.com/)**.
+```
+My favourite book currently is **[An Introduction to *Statistical Learning*](https://www.statlearning.com/)**.
+
+## 48. Nested Inline Code:
+**Markdown Code**
+```
+This is an example of `inline code with` nested `backticks`.
+```
+This is an example of  `inline code with` nested `backticks`.
+
+## 49. Definition Lists with Nested Lists:
+**Markdown Code**
+```
+Term 1
+: Definition 1
+  - Sub-definition 1
+  - Sub-definition 2
+
+Term 2
+: Definition 2
+  - Sub-definition 3
+```
+Term 1
+: Definition 1
+  - Sub-definition 1
+  - Sub-definition 2
+
+Term 2
+: Definition 2
+  - Sub-definition 3
+
+
+## 50. Combining Lists and Tables:
+**Markdown Code**
+```
+- Item 1
+  | Header 1 | Header 2 |
+  | -------- | -------- |
+  | Cell 1   | Cell 2   |
+- Item 2
+```
+
+- Item 1
+  | Header 1 | Header 2 |
+  | -------- | -------- |
+  | Cell 1   | Cell 2   |
+- Item 2
