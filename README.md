@@ -462,3 +462,116 @@ Content inside the dropdown.
 Content inside the dropdown.
 
 </details>
+
+## 35. Defination Lists:
+
+**Markdown Code**
+```
+Term 1
+: Give defination for first term.
+
+Term 2
+: Give definition for second term.
+```
+_Output_:
+
+Term 1
+: Give defination for first term.
+
+Term 2
+: Give definition for second term.
+
+## 36. Suppressed Markdowns:
+
+**Markdown Code**
+
+```\*This won't be* **parsed as** [Markdown].```:
+\*This won't be* **parsed as** [Markdown].
+
+
+## 37. Superscript and Subscript (Using HTML):
+
+```H<sub>2</sub>0 is a chemical formula.```:
+H<sub>2</sub>0 is a chemical formula. 
+
+```X<sup>2</sup> is an exponent.```:
+X<sup>2</sup> is an exponent.
+
+## 38. Syntax Highlighting:
+
+_Follow the mentioned syntax in markdown code_:
+>python
+>>def syntax_highlighting():
+>>>    print("Highlighted code")
+
+```python
+def syntax_highlighting():
+    print("Highlighted code")
+```
+
+## 39. Inline Footnotes:
+**Markdown Code**
+```
+Here's some text with a footnote about what I love very much[^1].
+
+[^1]: This is the footnote that says I love Music.
+```
+Here's some text with a footnote about what I love very much[^1].
+
+[^1]: This is the footnote that says I love Music.
+
+## 40. Blockquotes with Citation:
+
+**Markdown Code**
+```
+> This is a blockquote.
+> -- Alpha Mango.
+
+
+```
+
+> This is a blockquote.
+> -- Alpha Mango.
+
+## 41. Nested Lists with Different Bullet Types:
+**Markdown Code**
+```
+- Item 1
+  - Subitem 1
+    - Subsubitem 1
+- Item 2
+```
+
+- Item 1
+  - Subitem 1
+    - Subsubitem 1
+- Item 2
+
+## 42 Inline Math Equations with LaTeX:
+**Markdown Code**
+```
+This is an inline math equation(identity): $e^{i\pi} + 1 = 0$
+```
+This is an inline math equation(identity): $e^{i\pi} + 1 = 0$
+
+
+## 43. Task Lists:
+**Markdown Code:**
+```
+- [x] Task 1
+- [ ] Task 2
+```
+- [x] Task 1      =```Completed```
+- [ ] Task 2      =```Pending```
+
+## 44. Ordered List with Custom Start Number:
+**Markdown Code**
+```
+10. Item 1
+20. Item 2
+30. Item 3
+```
+
+10. Item 1
+20. Item 2
+30. Item 3
