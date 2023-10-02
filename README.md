@@ -1,5 +1,4 @@
 # MarkItDownGuide
-
 ## A comprehensive guide to mastering Markdown. Open to contributions and updates. Contribute, learn, and share. Let's make documentation beautiful together!
 
 ## Markdown Language Tutorial
@@ -47,9 +46,8 @@
 
 ```
 
-`*Italic Text*`
+`*Italic Text*` 
 ```
-
 **Output:** _Italic Text_
 
 ### 4. Bold and Italic
@@ -58,9 +56,8 @@
 
 ```
 
-`***Bold and Italic Text***`
+`***Bold and Italic Text***` 
 ```
-
 **Output:** _**Bold and Italic Text**_
 
 ### 5. Strikethrough Text
@@ -69,9 +66,8 @@
 
 ```
 
-`~~Strikethrough Text~~`
+`~~Strikethrough Text~~` 
 ```
-
 **Output:** ~~Strikethrough Text~~
 
 ### 6. Unordered List of Items
@@ -83,15 +79,14 @@
 `- Item 1
 - Item 2
  - Subitem 2.1
- - Subitem 2.2`
+ - Subitem 2.2` 
 ```
-
 **Output:**
 
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
+-   Item 1
+-   Item 2
+    -   Subitem 2.1
+    -   Subitem 2.2
 
 ### 7. Ordered List of Items
 
@@ -101,9 +96,8 @@
 
 `1. First Item
 2. Second Item
-3. Third Item`
+3. Third Item` 
 ```
-
 **Output:**
 
 1.  First Item
@@ -117,13 +111,12 @@
 ```
 
 `- [x] Completed Task
-- [ ] Incomplete Task`
+- [ ] Incomplete Task` 
 ```
-
 **Output:**
 
-- [x] Completed Task
-- [ ] Incomplete Task
+-   [x] Completed Task
+-  [ ] Incomplete Task
 
 ### 9. Blockquote Text
 
@@ -131,9 +124,8 @@
 
 ```
 
-`> Blockquote Text`
+`> Blockquote Text` 
 ```
-
 **Output:**
 
 > Blockquote Text
@@ -144,9 +136,8 @@
 
 ```
 
-`[Google](https://www.google.com)`
+`[Google](https://www.google.com)` 
 ```
-
 **Output:** [Google](https://www.google.com/)
 
 ### 11. Image
@@ -155,11 +146,10 @@
 
 ```
 
-`![Alt Text](https://via.placeholder.com/150)`
+`![Alt Text](https://via.placeholder.com/150)` 
 ```
-
 **Output:**
-![Alt Text](https://via.placeholder.com/150)
+ ![Alt Text](https://via.placeholder.com/150)
 
 ### 12. Linking an Image
 
@@ -167,11 +157,10 @@
 
 ```
 
-`[![Alt Text](https://via.placeholder.com/150)](https://www.google.com)`
+`[![Alt Text](https://via.placeholder.com/150)](https://www.google.com)` 
 ```
-
 **Output:**
-[![Alt Text](https://via.placeholder.com/150)](https://www.google.com/)
+ [![Alt Text](https://via.placeholder.com/150)](https://www.google.com/)
 
 ### 13. Emojis
 
@@ -179,9 +168,8 @@
 
 ```
 
-`:smile:`
+`:smile:` 
 ```
-
 **Output:** 😄
 
 ### 14. Horizontal Line
@@ -190,9 +178,8 @@
 
 ```
 
-`---`
+`---` 
 ```
-
 ## **Output:**
 
 ### 15. Code
@@ -201,59 +188,64 @@
 
 ```
 
-`` `Inline Code` ``
+`` `Inline Code` `` 
 ```
-
 **Output:** `Inline Code`
 
 ### 16. Code Block
 
-**Markdown Code:**
-
-```Code Block
-Another Line of Code
-```
+**Markdown Code:** `
+ ``` Code Block 
+ Another Line of Code 
 
 **Output:**
 
+
 `Code Block
-Another Line of Code`
+Another Line of Code` 
 
 ### 17. Table
 
 **Markdown Code:**
 
+
+
 | Header 1 | Header 2 |
-| -------- | -------- | --- |
+|----------|----------|
 | Cell 1   | Cell 2   |
-| Cell 3   | Cell 4   | `   |
+| Cell 3   | Cell 4   |` 
 
 **Output:**
 
 | Header 1 | Header 2 |
-| -------- | -------- | --- |
+|----------|----------|
 | Cell 1   | Cell 2   |
-| Cell 3   | Cell 4   | `   |
+| Cell 3   | Cell 4   |` 
 
 ### 18. Table With Alignments
 
 **Markdown Code:**
 
+
+
 | Left Align | Center Align | Right Align |
-| :--------- | :----------: | ----------: |
-| Cell 1     |    Cell 2    |      Cell 3 |
+|:-----------|:------------:|------------:|
+| Cell 1     | Cell 2       | Cell 3      |
+
 
 **Output:**
 
 | Left Align | Center Align | Right Align |
-| :--------- | :----------: | ----------: |
+|:-----------|:------------:|------------:|
 | Cell 1     |    Cell 2    |      Cell 3 |
+
 
 ### 19. HTML
 
 **Markdown Code:**
 
-`<b>Bold Text using HTML</b>`
+
+`<b>Bold Text using HTML</b>` 
 
 **Output:** <b>Bold Text using HTML</b>
 
@@ -263,8 +255,7 @@ Another Line of Code`
 
 ```
 
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>`
-```
+`<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>` ```
 
 ### 21. Mathematical Expressions
 
@@ -272,23 +263,20 @@ Another Line of Code`
 
 ```
 
-`$$ E = mc^2 $$`
+`$$ E = mc^2 $$` 
 ```
-
 **Output:** $$ E = mc^2 $$
 
 ### 22. DropDown (Using HTML)
 
 **HTML Code:**
-
 ```
 
 `<details>
   <summary>Title</summary>
   Content here...
-</details>`
+</details>` 
 ```
-
 **Output:**
 
 <details>
@@ -300,11 +288,12 @@ Another Line of Code`
 
 Markdown itself doesn't support diagrams. You'll need third-party tools or extensions for this. However, some platforms and tools have integrated services like Mermaid or PlantUML to allow for diagram rendering within Markdown. Here's an example using Mermaid syntax:
 
-`mermaid graph TD; A-->B; A-->C; B-->D; C-->D; `
+```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ```
 
 (Note: The actual rendering of the diagram will depend on the platform's support for Mermaid or other diagram tools.)
 
 For platforms that don't support Mermaid or similar tools, you might need to generate the diagram externally, save it as an image, and then embed the image in your Markdown document.
+
 
 ### 24. FootNote
 
@@ -314,9 +303,8 @@ For platforms that don't support Mermaid or similar tools, you might need to gen
 
 `Here's a statement[^1].
 
-[^1]: This is the footnote.`
+[^1]: This is the footnote.` 
 ```
-
 **Output:** Here's a statement[1]([About us bong.dev - Unite, Learn and Code](https://bong.dev/about/)).
 
 ### 25. Comments
@@ -325,9 +313,8 @@ For platforms that don't support Mermaid or similar tools, you might need to gen
 
 ```
 
-`[//]: # (This is a comment.)`
+`[//]: # (This is a comment.)` 
 ```
-
 **Output:** [//]: # (This is a comment.)
 
 ### 26. Nested Blockquotes
@@ -340,15 +327,14 @@ You can nest blockquotes by adding additional `>` characters.
 
 `> First Level
 >> Second Level
->>> Third Level`
+>>> Third Level` 
 ```
-
 **Output:**
 
 > First Level
->
+> 
 > > Second Level
-> >
+> > 
 > > > Third Level
 
 ### 27. Inline HTML
@@ -359,9 +345,8 @@ You can use any HTML tag inline with your Markdown.
 
 ```
 
-`This is <span style="color:red">red</span> text.`
+`This is <span style="color:red">red</span> text.` 
 ```
-
 **Output:** This is <span style="color:red">red</span> text.
 
 ### 28. Escaping Characters
@@ -372,10 +357,9 @@ If you want to display a character that has a special meaning in Markdown, you c
 
 ```
 
-`\*This is not italic\*`
+`\*This is not italic\*` 
 ```
-
-**Output:** _This is not italic_
+**Output:** *This is not italic*
 
 ### 29. Reference Links
 
@@ -388,9 +372,8 @@ You can define links and then reference them elsewhere in your document for clea
 `[Google][1]
 [GitHub][2]
 ```
-
 [1]: https://www.google.com
-[2]: https://www.github.com`
+[2]: https://www.github.com` 
 
 **Output:** [Google](https://www.google.com/) [GitHub](https://www.github.com/)
 
@@ -404,10 +387,10 @@ Just like reference links, but for images.
 
 `![Alt Text][image1]
 
-[image1]: https://via.placeholder.com/150`
+[image1]: https://via.placeholder.com/150` 
 ```
 
-**Output:**
+**Output:** 
 ![Alt Text](https://via.placeholder.com/150)
 
 ### 31. Abbreviations
@@ -421,12 +404,11 @@ Define abbreviations that will show an explanation when hovered over.
 `The HTML specification is maintained by the W3C.
 
 *[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium`
+*[W3C]: World Wide Web Consortium` 
 ```
-
 **Output:** The HTML specification is maintained by the W3C.
 
-_[HTML]: Hyper Text Markup Language _[W3C]: World Wide Web Consortium
+*[HTML]: Hyper Text Markup Language *[W3C]: World Wide Web Consortium
 
 ### 32. Definition Lists
 
@@ -440,14 +422,14 @@ Create a list of terms with their corresponding definitions.
 :   A fruit that is red or green.
 
 Orange
-:   A juicy citrus fruit.`
+:   A juicy citrus fruit.` 
 ```
-
-**Output:**
-Apple :
+**Output:** 
+Apple : 
 A fruit that is red or green.
-Orange :
+Orange : 
 A juicy citrus fruit.
+
 
 ### 33. Line Breaks
 
@@ -457,11 +439,10 @@ To create a line break, end a line with two or more spaces, then type return.
 
 ```
 
-`This is the first line.
-This is the second line.`
+`This is the first line.  
+This is the second line.` 
 ```
-
-**Output:**
+**Output:** 
 This is the first line.  
 This is the second line.
 
@@ -474,9 +455,8 @@ Markdown itself doesn't directly support dropdowns, but you can use HTML within 
 
 Content inside the dropdown.
 
-</details>
-```
-
+</details> 
+```  
 <details> <summary>Click to expand!</summary>
 
 Content inside the dropdown.
