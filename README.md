@@ -1,4 +1,5 @@
-# MarkItDownGuide
+# MarkItDownGuide  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bongdevhq/MarkItDownGuide?style=social&logo=github&logoColor=orange">
+
 ## A comprehensive guide to mastering Markdown. Open to contributions and updates. Contribute, learn, and share. Let's make documentation beautiful together!
 
 ## Markdown Language Tutorial
